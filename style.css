@@ -46,8 +46,12 @@ h1 {
     font-size: 16px;
     outline: none;
     padding: 16px;
-    width: 180px;
+    width: 300px;
     border-radius: 16px;
+}
+
+#input-new-task::placeholder {
+    text-align: center;
 }
 
 #btn-new-task {
@@ -68,3 +72,19 @@ h1 {
     display: flex;
     align-items: center;
 }
+
+#to-do-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+}
+
+#to-do-list li {
+    list-style-type: none;
+    font-size: 22px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
